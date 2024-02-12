@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .section-header {
+    @apply flex flex-col min-h-screen max-h-screen my-8;
+  }
+}
